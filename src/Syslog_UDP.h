@@ -41,7 +41,7 @@
   #include <WiFi.h>
 #endif
 
-#define __SYSLOG_UDP_H_VERSION__  "1.0.0"
+#define __SYSLOG_UDP_H_VERSION__  "1.0.1"
 // ---------------------------------------------------------------------------
 // Réglages compile-time (surchargeables via -D)
 // ---------------------------------------------------------------------------
