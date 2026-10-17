@@ -1,0 +1,20 @@
+{
+  "name": "Syslog_UDP",
+  "version": "1.0.0",
+  "description": "Client Syslog UDP (RFC 5424) fire-and-forget pour ESP8266/ESP32 : file d'attente fixe en RAM, aucune allocation dynamique, fail-soft. Envoie les logs/plantages vers un serveur (ex. OMV + listener Python).",
+  "keywords": ["syslog", "udp", "log", "crash", "esp8266", "esp32", "arduino"],
+  "authors": [
+    {
+      "name": "Olivier FOURNET",
+      "email": "olivier.fournet@free.fr",
+      "url": "https://github.com/Fo170",
+      "maintainer": true
+    }
+  ],
+  "license": "GPL-3.0-only",
+  "homepage": "https://github.com/Fo170/Syslog_UDP",
+  "frameworks": "arduino",
+  "platforms": "espressif8266, espressif32",
+  "headers": "Syslog_UDP.h",
+  "build": { "srcDir": "src" }
+}

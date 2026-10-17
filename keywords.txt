@@ -1,0 +1,38 @@
+#######################################
+# Syntax Coloring Map For Syslog_UDP
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+Syslog_UDP	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+begin	KEYWORD2
+setEnabled	KEYWORD2
+isEnabled	KEYWORD2
+setFacility	KEYWORD2
+setGate	KEYWORD2
+setAppName	KEYWORD2
+dropped	KEYWORD2
+log	KEYWORD2
+logf	KEYWORD2
+logBlock	KEYWORD2
+info	KEYWORD2
+warn	KEYWORD2
+error	KEYWORD2
+loop	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+SYSLOG_EMERG	LITERAL1
+SYSLOG_ALERT	LITERAL1
+SYSLOG_CRIT	LITERAL1
+SYSLOG_ERR	LITERAL1
+SYSLOG_WARNING	LITERAL1
+SYSLOG_NOTICE	LITERAL1
+SYSLOG_INFO	LITERAL1
+SYSLOG_DEBUG	LITERAL1
